@@ -12,7 +12,8 @@ Those who wish to download an executable, I have provided the EXE in the reposit
 
 <ol>
 <li>Download and install the dependencies: <a title="Python" href="http://www.python.org/download/">Python</a>, <a title="PyInstaller" href="http://www.pyinstaller.org/">PyInstaller</a>, <a title="PyWin32" href="http://sourceforge.net/projects/pywin32/files/">PyWin32</a>, and <a title="wxPython" href="http://www.wxpython.org/download.php">wxPython</a> if you have not already installed it.</li>
-<li>After you downloaded and installed the previous packages, run the following command in your python terminal: <code>python pyinstaller/utils/Makespec.py --onefile --noconsole sound_silencer.py</code> This will generate a 'spec' file, which you will now use with Build.py to compile an .EXE: <code>python pyinstaller/utils/Build.py pyinstaller\pyinstaller.spec</code>. 
+<li>After you downloaded and installed the previous packages, run the following command in your python terminal: <code>python pyinstaller/utils/Makespec.py --onefile --noconsole sound_silencer.py</code>
+<li>This will generate a 'spec' file, which you will now use with Build.py to compile an .EXE: <code>python pyinstaller/utils/Build.py pyinstaller\pyinstaller.spec</code></li>
 <li>Running the previous command will create a single file executable which you can place on a computer that does or even does not have python installed.</li>
 </ol>
 
